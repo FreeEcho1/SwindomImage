@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <BitmapImage x:Key="AdditionImage" UriSource="Resources/Addition.png"/>
+    <BitmapImage x:Key="CheckImage" UriSource="Resources/Check.png"/>
+    <BitmapImage x:Key="CloseSetting" UriSource="Resources/CloseSetting.png"/>
+    <BitmapImage x:Key="CopyImage" UriSource="Resources/Copy.png"/>
+    <BitmapImage x:Key="DeleteImage" UriSource="Resources/Delete.png"/>
+    <BitmapImage x:Key="DownImage" UriSource="Resources/Down.png"/>
+    <BitmapImage x:Key="EventProcessingImage" UriSource="Resources/EventProcessing.png"/>
+    <BitmapImage x:Key="HotkeyProcessingImage" UriSource="Resources/HotkeyProcessing.png"/>
+    <BitmapImage x:Key="InformationImage" UriSource="Resources/Information.png"/>
+    <BitmapImage x:Key="LinkedChainImage" UriSource="Resources/LinkedChain.png"/>
+    <BitmapImage x:Key="MagnetProcessingImage" UriSource="Resources/MagnetProcessing.png"/>
+    <BitmapImage x:Key="ModifyImage" UriSource="Resources/Modify.png"/>
+    <BitmapImage x:Key="OtherProcessing" UriSource="Resources/OtherProcessing.png"/>
+    <BitmapImage x:Key="SettingsImage" UriSource="Resources/Settings.png"/>
+    <BitmapImage x:Key="TargetImage" UriSource="Resources/Target.png"/>
+    <BitmapImage x:Key="TimerProcessingImage" UriSource="Resources/TimerProcessing.png"/>
+    <BitmapImage x:Key="UnattachedChainImage" UriSource="Resources/UnattachedChain.png"/>
+    <BitmapImage x:Key="UpImage" UriSource="Resources/Up.png"/>
+
+</ResourceDictionary>

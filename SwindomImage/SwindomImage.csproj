@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <PackageId>Swindom Image</PackageId>
+    <Authors>FreeEcho</Authors>
+    <Company>FreeEcho</Company>
+    <Copyright>© 2021 FreeEcho</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Addition.png" />
+    <None Remove="Resources\Check.png" />
+    <None Remove="Resources\CloseSettings.png" />
+    <None Remove="Resources\Copy.png" />
+    <None Remove="Resources\Delete.png" />
+    <None Remove="Resources\Down.png" />
+    <None Remove="Resources\EventProcessing.png" />
+    <None Remove="Resources\HotkeyProcessing.png" />
+    <None Remove="Resources\Information.png" />
+    <None Remove="Resources\LinkedChain.png" />
+    <None Remove="Resources\MagnetProcessing.png" />
+    <None Remove="Resources\Modify.png" />
+    <None Remove="Resources\OtherProcessing.png" />
+    <None Remove="Resources\Setting.png" />
+    <None Remove="Resources\Settings.png" />
+    <None Remove="Resources\Target.png" />
+    <None Remove="Resources\TimerProcessing.png" />
+    <None Remove="Resources\UnattachedChain.png" />
+    <None Remove="Resources\Up.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Addition.png" />
+    <Resource Include="Resources\Check.png" />
+    <Resource Include="Resources\CloseSettings.png" />
+    <Resource Include="Resources\Copy.png" />
+    <Resource Include="Resources\Delete.png" />
+    <Resource Include="Resources\Down.png" />
+    <Resource Include="Resources\EventProcessing.png" />
+    <Resource Include="Resources\HotkeyProcessing.png" />
+    <Resource Include="Resources\Information.png" />
+    <Resource Include="Resources\LinkedChain.png" />
+    <Resource Include="Resources\MagnetProcessing.png" />
+    <Resource Include="Resources\Modify.png" />
+    <Resource Include="Resources\OtherProcessing.png" />
+    <Resource Include="Resources\Settings.png" />
+    <Resource Include="Resources\Target.png" />
+    <Resource Include="Resources\TimerProcessing.png" />
+    <Resource Include="Resources\UnattachedChain.png" />
+    <Resource Include="Resources\Up.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
